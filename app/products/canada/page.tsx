@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { Footer, PageHeader, SiteHeader } from '@/components/site-shell'
 
 const canadaProducts = [
-  { name: 'Quebec (QC) Fake ID',                           img: '/images/quebec-1.jpg' },
-  { name: 'British Columbia (B.C.) Fake ID',               img: '/images/british_columbia-1.jpg' },
-  { name: 'Saskatchewan (SK) Fake ID',                     img: '/images/saskatchewan1.jpg' },
-  { name: 'Manitoba (Man) Fake ID (2026 Version)',         img: '/images/manitoba-1.jpg' },
-  { name: 'Alberta (Alta) Fake DL (2026 Version)',         img: '/images/alberta-1.jpg' },
-  { name: 'British Columbia (B.C.) Fake ID (2025 Version)', img: '/images/british_columbia_2025-1.jpg' },
-  { name: 'Ontario (ON) Fake ID (2025 version)',           img: '/images/ontario-1.jpg' },
+  { name: 'Quebec (QC) Fake ID',                           img: '/images/quebec-1.webp' },
+  { name: 'British Columbia (B.C.) Fake ID',               img: '/images/british_columbia-1.webp' },
+  { name: 'Saskatchewan (SK) Fake ID',                     img: '/images/saskatchewan1.webp' },
+  { name: 'Manitoba (Man) Fake ID (2026 Version)',         img: '/images/manitoba-1.webp' },
+  { name: 'Alberta (Alta) Fake DL (2026 Version)',         img: '/images/alberta-1.webp' },
+  { name: 'British Columbia (B.C.) Fake ID (2025 Version)', img: '/images/british_columbia_2025-1.webp' },
+  { name: 'Ontario (ON) Fake ID (2025 version)',           img: '/images/ontario-1.webp' },
 ]
 
 function ProductCard({ name, img }: { name: string; img: string }) {
