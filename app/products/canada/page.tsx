@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { Footer, PageHeader, SiteHeader } from '@/components/site-shell'
 
 const canadaProducts = [
-  { name: 'British Columbia Fake ID', img: '/images/britishcolumbia.jpg' },
-  { name: 'Ontario Fake ID',          img: '/images/ontario.jpg' },
-  { name: 'Quebec Fake ID',           img: '/images/quebec.jpg' },
-  { name: 'Alberta Fake ID',          img: '/images/canada.jpg' },
-  { name: 'Manitoba Fake ID',         img: '/images/canada.jpg' },
-  { name: 'Nova Scotia Fake ID',      img: '/images/canada.jpg' },
-  { name: 'Saskatchewan Fake ID',     img: '/images/canada.jpg' },
+  { name: 'Quebec (QC) Fake ID',                           img: '/images/quebec-1.jpg' },
+  { name: 'British Columbia (B.C.) Fake ID',               img: '/images/british_columbia-1.jpg' },
+  { name: 'Saskatchewan (SK) Fake ID',                     img: '/images/saskatchewan1.jpg' },
+  { name: 'Manitoba (Man) Fake ID (2026 Version)',         img: '/images/manitoba-1.jpg' },
+  { name: 'Alberta (Alta) Fake DL (2026 Version)',         img: '/images/alberta-1.jpg' },
+  { name: 'British Columbia (B.C.) Fake ID (2025 Version)', img: '/images/british_columbia_2025-1.jpg' },
+  { name: 'Ontario (ON) Fake ID (2025 version)',           img: '/images/ontario-1.jpg' },
 ]
 
 function ProductCard({ name, img }: { name: string; img: string }) {
@@ -24,8 +24,8 @@ function ProductCard({ name, img }: { name: string; img: string }) {
       </div>
       <div className="product-card-body">
         <h3>{name}</h3>
-        <p className="product-price">CA$100.00</p>
-        <Link href={`/orders?product=${encodedName}&img=${encodedImg}&price=CA%24100.00`} className="btn-select">
+        <p className="product-price">CA$95.00</p>
+        <Link href={`/orders?product=${encodedName}&img=${encodedImg}&price=CA%2495.00`} className="btn-select">
           Place Order
         </Link>
       </div>
