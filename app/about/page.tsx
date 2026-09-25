@@ -61,7 +61,7 @@ export default function AboutPage() {
             to pay through unofficial or sketchy payment channels without prior communication.
           </p>
           <p>
-            If in doubt, reach out to us directly via our official Telegram (<strong>@jayprint77</strong>) or WhatsApp
+            If in doubt, reach out to us directly via our official Telegram (<strong>@Jayprint78</strong>) or WhatsApp
             (<strong>+1 (402) 871-4160</strong>) before placing an order.
           </p>
 

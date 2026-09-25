@@ -18,7 +18,7 @@ export default function ContactPage() {
                 <strong>Telegram</strong>. We typically respond within a few hours.
               </p>
               <p><strong>WhatsApp:</strong> +1 (402) 871-4160</p>
-              <p><strong>Telegram:</strong> @jayprint77</p>
+              <p><strong>Telegram:</strong> @Jayprint78</p>
               <p><strong>Email:</strong> jayprint67@gmail.com</p>
               <p style={{ marginTop: '20px', fontSize: '13px', color: '#888' }}>
                 Monday – Friday / 9am – 9pm EST

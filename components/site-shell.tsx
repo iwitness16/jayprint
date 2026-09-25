@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const WA_NUMBER  = '14028714160'
 const WA_DISPLAY = '+1 (402) 871-4160'
-const TG_USER    = '@jayprint77'
-const TG_HREF    = 'https://t.me/jayprint77'
+const TG_USER    = '@Jayprint78'
+const TG_HREF    = 'https://t.me/Jayprint78'
 const MAIL       = 'jayprint67@gmail.com'
 
 const navLinks = [
@@ -150,7 +150,7 @@ export function Footer() {
             <h4>About</h4>
             <p><strong>Company:</strong> JayPrint</p>
             <p><strong>WhatsApp:</strong> +1 (402) 871-4160</p>
-            <p><strong>Telegram:</strong> @jayprint77</p>
+            <p><strong>Telegram:</strong> @Jayprint78</p>
             <p><strong>Email:</strong> jayprint67@gmail.com</p>
             <div className="footer-social">
               <a href={`https://wa.me/${WA_NUMBER}`} className="social-btn social-wa" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">

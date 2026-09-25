@@ -550,7 +550,7 @@ function OrdersInner() {
                     )}
                     <span>
                       <strong>Send via Telegram</strong>
-                      <small>@jayprint77</small>
+                      <small>@Jayprint78</small>
                     </span>
                   </button>
 
