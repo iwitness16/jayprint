@@ -7,7 +7,7 @@ import { db } from '@/lib/firebase'
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 
 const ADMIN_WHATSAPP = '14028714160'
-const ADMIN_TELEGRAM = 'Jayprint8'
+const ADMIN_TELEGRAM = 'Jayprint10'
 
 /* ── All products ── */
 const allProducts = [
@@ -550,7 +550,7 @@ function OrdersInner() {
                     )}
                     <span>
                       <strong>Send via Telegram</strong>
-                      <small>@Jayprint8</small>
+                      <small>@Jayprint10</small>
                     </span>
                   </button>
 
